@@ -26,14 +26,18 @@
         <button class="btn" type="submit" data-start>Search</button>
       </form>
 
+      <ul class="gallery" aria-live="polite"></ul>
+
+      <div class="container__btn">
+        <button class="btn__load is-hidden" type="button">Load more</button>
+      </div>
+
       <span
         id="loader"
         class="loader loader-default"
         aria-live="polite"
         aria-busy="false"
       ></span>
-
-      <ul class="gallery" aria-live="polite"></ul>
     </main>
 
     <load src="./partials/footer.html" />
